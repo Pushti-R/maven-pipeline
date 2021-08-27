@@ -7,18 +7,17 @@ public class HomeServlet extends HttpServlet {
     public String html = "<html><head><title>Home page</title>" +
             "<style>" +
             "li {" +
-            "background-color:dodgerblue;" +
+            "background-color:black;" +
             "color:white;" +
             "padding: 16px;" +
             "margin: 8px;" +
             "}" +
             "</style></head><body>" +
-            "<h1>Welcome to best website in world</h1>" +
+            "<h1>Welcome to TomCat Website</h1>" +
             "<ul>" +
-            "<li> Projects</li>" +
-            "<li> Contact</li>" +
-            "<li> About </li>" +
-            "<li>Explore</li>" +
+            "<li> Home</li>" +
+            "<li> About</li>" +
+            "<li> Contact </li>" +
             "</ul></body></html>";
 
     public void init() throws ServletException {
